@@ -1,0 +1,95 @@
+
+
+#web{
+box-sizing:border-box;
+background-color:#3f8c7d;
+height: 100px;
+width: 100%;
+/*primero ejex 
+segundo eje y
+tercero opacidad
+ 4to tamaño
+5to color */
+box-shadow: 3px 10px 10px 2px rgba(0,0,0,1);
+border-bottom: 13px solid #000;
+
+
+
+}
+#desa{
+box-sizing:border-box;
+color:white;
+font-size: 350%;
+
+
+padding-top: 5px;
+padding-left: 170px;
+padding-bottom: 60px;
+
+padding-right: 50px;
+}
+#desarrolloWeb{
+margin-left: 20px;
+position:relative;top:30px;
+border-bottom: 3px solid #000;
+
+
+
+}
+#quees{
+	font-size: 110%;
+	padding:15px;
+	height: 250px;
+	width: 1250px;
+margin-top:55px;
+background-color:#F4F4F4;
+margin-left:40px;
+
+}
+#especializaciones{
+
+font-size:110%; 
+margin-left: 29px;
+position:relative;top:30px;
+}
+#trabajo{
+
+margin-left: 29px;
+	border-bottom: 3px solid #000;
+}
+
+
+.parrafo{
+	padding-left: 34px;
+	padding-top: 15px;
+}
+#images{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+.hoverimg:hover {
+
+
+	
+	cursor:pointer;
+	transform:	scale(1.05,1.05);
+}
+#tecnologias{
+
+margin-left:29px;
+
+}
+footer{
+
+background-color: black;
+width: 100%;
+height: 50px;
+border-top: 15px solid #3f8c7d;
+padding-left: 650px;
+color:white;
+font-size: 110%;
+
+}
